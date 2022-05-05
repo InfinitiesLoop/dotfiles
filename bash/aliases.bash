@@ -56,3 +56,7 @@ alias gga+='git log --oneline --abbrev-commit --graph --decorate --color --all'
 alias   gg='gg+  | head -n `expr $LINES / 2`'
 alias  gga='gga+ | head -n `expr $LINES / 2`'
 
+# aws
+alias a='aws'
+alias aa='aws --cli-auto-prompt'
+
